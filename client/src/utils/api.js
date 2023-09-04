@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const Url = 'http://localhost:8080';
+const Url = 'http://koolmind-crud.onrender.com';
 
 export const addEmployee = async (employee) => {
     return await axios.post(`${Url}/createEmployee`, employee);
