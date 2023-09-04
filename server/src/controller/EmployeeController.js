@@ -22,7 +22,7 @@ const getAllEmployees = async (req, res) => {
 
     return res
       .status(200)
-      .json({ status: false, message: "Employees", Employees: employees });
+      .json({ status: true, message: "Employees", Employees: employees });
   } catch (err) {
     return res.status(500).json({ status: false, message: err.message });
   }

@@ -48,7 +48,7 @@ try{
         return res.status(400).json({status:false,message:"pincode is required"})
     }
     if(!employeeId){
-        return res.status(400).json({status:false,message:"emplyeeId is required"})
+        return res.status(400).json({status:false,message:"employeeId is required"})
     }else{
         if(!ObjectId.isValid(employeeId)){
             return res.status(400).json({status:false,message:"Invalid EmployeeId"})
