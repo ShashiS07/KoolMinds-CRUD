@@ -30,4 +30,4 @@
 
 #### SEE DEMO -
 
-- you can see demo of this web app by visiting on 
+- you can see demo of this web app by visiting on https://kool-minds-crud-87g6-shashis07.vercel.app/
